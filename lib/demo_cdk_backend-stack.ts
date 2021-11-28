@@ -13,7 +13,7 @@ export class DemoCdkBackendStack extends cdk.Stack {
         type: dynamodb.AttributeType.STRING
       }
     })
-    const myDynamoDbProductTable2 = new dynamodb.Table(this, 'myDynamoDBTable', {
+    const myDynamoDbProductTable2 = new dynamodb.Table(this, 'myDynamoDBTable2', {
       tableName: 'My_DynamoDB_TABLE_FOR_CICD_2',
       partitionKey: {
         name: 'id',
