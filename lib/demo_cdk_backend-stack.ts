@@ -7,7 +7,7 @@ export class DemoCdkBackendStack extends cdk.Stack {
 
     // Created a DynamoDB Table
     const myDynamoDbProductTable = new dynamodb.Table(this, 'myDynamoDBTable', {
-      tableName: 'My_DynamoDB_TABLE_FOR_CICD',
+      tableName: 'My_DynamoDB_TABLE_FOR_CICD_UPDATED',
       partitionKey: {
         name: 'id',
         type: dynamodb.AttributeType.STRING
